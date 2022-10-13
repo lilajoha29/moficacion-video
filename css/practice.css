@@ -1,5 +1,10 @@
-body .wrap-body{
+/* body .wrap-body{
     padding: 0px  355px 0px 355px;
+} */
+.main-header{
+    max-width: 50%;
+    display: flexbox;
+    margin: 0px auto;
 }
 
 
@@ -43,6 +48,17 @@ body .wrap-body{
     flex-direction: row;
     
 } */
+#container .wrap-container {
+    background: #fff;
+    max-width: 50%;
+    display: flexbox;
+    margin: 0px auto;
+}
+.wrap-footer {
+    max-width: 50%;
+    display: flexbox;
+    margin: 0px auto;
+}
 
 .wrap-footer .row{
     display: flex;
@@ -50,7 +66,10 @@ body .wrap-body{
     width: 100%;
     flex-direction:  row;
     justify-content: space-around;
+    
 }
+
+
 .col-footer-1{
     width: 50%;
     padding-right: 10px ;
